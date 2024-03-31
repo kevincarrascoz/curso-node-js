@@ -1,5 +1,5 @@
 const fs = require('node:fs')
-
+// Forma syncrona secuencial lineal
 console.log('Leyendo primer archivo...')
 const text = fs.readFileSync('./archivo.txt', 'utf-8')
 console.log('primer texto: ', text)

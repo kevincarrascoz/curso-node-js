@@ -1,5 +1,5 @@
 const { readFile } = require('node:fs/promises');
-
+// Forma asyncrona 
 (
     async () => {
         console.log('Leyendo primer archivo...')
